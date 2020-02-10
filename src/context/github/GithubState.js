@@ -9,7 +9,6 @@ import {
   GET_USER,
   GET_REPOS
 } from '../types';
-import { state } from 'fs';
 
 const GithubState = props => {
   const initialState = {
